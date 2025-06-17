@@ -5,17 +5,17 @@ double a, b;
 
 int calculadora (){
     char opcao;
-    printf("\n===============================\nCalculadora Simples\n===============================\nSelecione uma operação:\n1. Adição\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Sair\nOpção: ");
+    printf("\n===============================\nCalculadora Simples\n===============================\nSelecione uma operacao:\n1. Adicao\n2. Subtracao\n3. Multiplicacao\n4. Divisao\n5. Sair\nOpcao: ");
     scanf("%c", &opcao);
     while (getchar() != '\n');
     if(opcao=='5'){
         return gl=2;
     }
     else if(opcao>'0'&&opcao<'5'){
-        printf("Digite o primeiro número: ");
+        printf("Digite o primeiro numero: ");
         scanf("%lf", &a);
         while (getchar() != '\n');
-        printf("Digite o segundo número: ");
+        printf("Digite o segundo numero: ");
         scanf("%lf", &b);
         while (getchar() != '\n');
         if(opcao=='1'){return gl=5;}
@@ -28,22 +28,22 @@ int calculadora (){
     }
 }
 int sair (){
-    printf("Obrigado por usar a calculadora! Até a próxima.");
+    printf("Obrigado por usar a calculadora! Ate a proxima.");
     return gl=0;
 }
 int erro(){
-    printf("Resposta inválida! Por favor, digite um número de 1 a 5 de acordo com as opções.");
+    printf("Resposta invalida! Por favor, digite um numero de 1 a 5 de acordo com as opcoes.");
     return gl=1;
 }
 int outravez(){
     char x;
-    printf("\nDeseja realizar outra operação? (s/n): ");
+    printf("\n\nDeseja realizar outra operacao? (s/n): ");
     scanf(" %c", &x);
     while (getchar() != '\n');
     if(x=='s'){return gl=1;}
     else if(x=='n'){return gl=2;}
     else{
-        printf("Resposta inválida. Por favor, digite 's' para sim ou 'n' para não.");
+        printf("Resposta invalida. Por favor, digite 's' para sim ou 'n' para nao.");
         return gl=4;}
 }
 double adicao(double f, double s){
@@ -63,7 +63,7 @@ double vezes(double f, double s){
 }
 double divisao(double f, double s){
     if(s==0){
-        printf("\nErro: Divisão por zero não é permitida.");
+        printf("\nErro: Divisao por zero nao e permitida.");
         return gl=4;
     }
     double x=f/s;
