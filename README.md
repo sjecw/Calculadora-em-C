@@ -1,8 +1,36 @@
-# Calculadora-em-C
+# Calculadora em C
 
-Calculadora em C
-calculadora simprles na linguagem c.
-possui as quatro operações principais de uma calculadora comum: adição, subtração, multiplicação e divisão
-conta com uma interface simples e intuitiva e, após selecionar uma das opções, será pedido os dois números para a operação.
-em casos com divisão por 0, a calculadora solicitará a redigitação dos números
-após o resultado, será perguntado se há a ncessidade de fazer outra conta
+Trata-se de uma calculadora simples, escrita na linguagem C, que dispõe das quatro operações matemáticas básicas como adição, subtração, multiplicação e divisão entre dois números. O programa é executado em terminal e conta com um menu interativo. 
+Feita com base no projeto do Neps Academy [Calculadora-Baseada-em-Texto-C](https://neps.academy/br/course/introducao-a-programacao/lesson/calculadora-baseada-em-texto-em-c).
+
+## Pré-requisitos
+
+- Um compilador C (como `gcc`)
+- Terminal ou console
+
+## Exemplo de uso e Demonstração
+
+
+
+## Estrutura
+
+```
+    Calculadora-em-C/  
+    │── calculadora.c  
+    │── LICENSE 
+    │── README.md  
+    │── images/  
+    │   └── menu_principal.png
+    │   └── exemplo_operacao.png
+    │   └── opcao_sair.png
+    |   └── divisao_por_zero.png
+    
+```
+
+* `calculadora.c` contém todo o código do programa;
+* `LICENSE` contém a licença do projeto;
+* `README.md` contém informações sobre o projeto;
+* `images` contém as mídias do projeto.
+
+## Licença
+O projeto sob a licença MIT, acesse o arquivo [LICENSE](https://github.com/sjecw/Calculadora-em-C/blob/main/LICENSE) desse repositório para saber mais.
