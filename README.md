@@ -9,16 +9,16 @@ Feita com base no projeto do Neps Academy [Calculadora-Baseada-em-Texto-C](https
 - Terminal ou console
 
 ## Exemplo de uso e Demonstração
-![menu_principal.png]
+![menu_principal.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/menu_principal.png)
 O menu principal da calculadora conta com uma interface simples que numera opções de 1 a 5. Caso o usuário escolha uma operação, será pedido os primeiro e segundo números para a execução do cálculo. 
 
-![exemplo_operacao.png]
+![exemplo_operacao.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/exemplo_operacao.png)
 Após imprimir o resultado, o programa perguntará se deseja-se fazer uma nova operação, caso sim, o usuário deve responder com 's' ou 'S' para prosseguir e o menu principal será mostrado novamente. Caso contrário, o programa imprimirá uma mensagem de despedida e será encerrado.
 
-![opcao_sair.png]
+![opcao_sair.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/opcao_sair.png)
 Se o usuário optar pela opção 5, "Sair", a mensagem irá aparecer novamente e o programa se encerrará.
 
-![divisão_por_zero.png]
+![divisão_por_zero.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/divisao_por_zero.png)
 O programa trata a divisão por zero como erro e solicitará os números novamente.
 
 
