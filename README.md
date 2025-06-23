@@ -9,6 +9,16 @@ Feita com base no projeto do Neps Academy [Calculadora-Baseada-em-Texto-C](https
 - Baixe o MinGW-w64 acessando a página oficial [MinGW-w64](https://www.mingw-w64.org). Instale de acordo com seu sistema.
 - Abra o prompt de comando e digite `gcc --version` para verificar se o compilador foi instalado corretamente.
 
+### Compilação
+```bash
+gcc calculadora.c -o calculadora
+```
+
+### Execução 
+```bash
+./calculadora
+```
+
 ## Exemplo de uso e Demonstração
 ![menu_principal.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/menu_principal.png)
 
