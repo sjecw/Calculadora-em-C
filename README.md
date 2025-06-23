@@ -3,10 +3,11 @@
 Trata-se de uma calculadora simples, escrita na linguagem C, que dispõe das quatro operações matemáticas básicas como adição, subtração, multiplicação e divisão entre dois números. O programa é executado em terminal e conta com um menu interativo. 
 Feita com base no projeto do Neps Academy [Calculadora-Baseada-em-Texto-C](https://neps.academy/br/course/introducao-a-programacao/lesson/calculadora-baseada-em-texto-em-c).
 
-## Pré-requisitos
+## Pré-requisitos e Instalação
+É preciso que o compilador `gcc` ou outro do tipo esteja instalado no sistema. Para instalar, siga as instruções resumidas abaixo (para Windows):
 
-- Um compilador C (como `gcc`)
-- Terminal ou console
+- Baixe o MinGW-w64 acessando a página oficial [MinGW-w64](https://www.mingw-w64.org). Instale de acordo com seu sistema.
+- Abra o prompt de comando e digite `gcc --version` para verificar se o compilador foi instalado corretamente.
 
 ## Exemplo de uso e Demonstração
 ![menu_principal.png](https://github.com/sjecw/Calculadora-em-C/blob/main/images/menu_principal.png)
