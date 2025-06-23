@@ -28,7 +28,7 @@ int calculadora (){
     }
 }
 int sair (){
-    printf("Obrigado por usar a calculadora! Ate a proxima.");
+    printf("Obrigado por usar a calculadora! Ate a proxima.\n");
     return gl=0;
 }
 int erro(){
